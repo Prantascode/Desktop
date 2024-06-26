@@ -2,9 +2,9 @@ public class Animal {
     String name;
     int age;
 
-    public Animal(String Name, int Age) {
-        name = Name;
-        age = Age;
+    public Animal(String name, int age) {
+        this.name = name;
+        this.age = age;
     }
 
     public void displayInfo() {
@@ -15,8 +15,8 @@ public class Animal {
     class Dog extends Animal {
         String breed;
     
-        public Dog(String Name, int Age, String Breed) {
-            super(Name, Age);
+        public Dog(String name, int age, String Breed) {
+            super(name, age);
             breed = Breed;
         }
     
