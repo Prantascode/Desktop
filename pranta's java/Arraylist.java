@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Arraylist {
     public static void main(String[] args) {
@@ -9,6 +10,7 @@ public class Arraylist {
         //cars.set(0,"Mazda");
         //cars.remove(0);
         //cars.clear();
+        Collections.sort(cars);
         
         System.out.println(cars/* .get(1)*/);
     }
