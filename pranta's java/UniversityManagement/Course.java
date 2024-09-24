@@ -16,7 +16,7 @@ public class Course implements GradingSystem {
     }
     public void assignGrade(Student student, String grade){
         if(studentCount < students.length){
-            students[studentCount] = student;
+            students[studentCount] = student;// connect with Studemt class
             grades[studentCount] = grade;
             studentCount++;
         }
